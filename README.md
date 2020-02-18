@@ -6,7 +6,7 @@ Web application to help you study React concepts. Built with Vue.js
 
 ## Live Demo
 
-To be updated.
+[Click here](https://dulce-flashcards.herokuapp.com/)
 
 ## Getting Started
 
