@@ -61,6 +61,6 @@ html {
 .title {
   font-family: "Courgette", cursive;
   font-size: 2rem;
-  color: #ff79c6bb;
+  color: #ff79c6;
 }
 </style>
