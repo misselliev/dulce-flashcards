@@ -1,18 +1,45 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <div class="score">Score: {{ score }}</div>
+    <flashcard :front="question" :back="answer"></flashcard>
+
+    <div v-if="this.$store.state.cardFlipped">
+      <button @click="correct">Correct</button>
+      <button @click="wrong">Wrong</button>
+    </div>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import flashcard from './components/Flashcard.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
+    flashcard,
+  },
+  data() {
+    return {
+      score: 0,
+    }
+  },
+  computed: {
+    question () {
+      return this.$store.getters.currentQuestion
+    },
+    answer () {
+      return this.$store.getters.currentAnswer
+    },
+  },
+  methods: {
+    correct () {
+      this.$store.dispatch('correctAnswer')
+      this.score++
+    },
+    wrong () {
+      this.$store.dispatch('wrongAnswer')
+    },
+  },
 }
 </script>
 
