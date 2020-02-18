@@ -1,26 +1,18 @@
-[{
-    "question": "What is React?",
-    "answer": "React is an open-source frontend JavaScript library which is used for building user interfaces especially for single page applications. <br>It is used for handling view layer for web and mobile apps."
+[
+  {
+    "answer": "What is React?",
+    "question": "React is an open-source frontend JavaScript library which is used for building user interfaces especially for single page applications. It is used for handling view layer for web and mobile apps."
   },
   {
-    "question": "What are the major features of React?",
-    "answer": "1)It uses VirtualDOM instead RealDOM considering that RealDOM manipulations are expensive.<br> 2)Supports server-side rendering. <br> 3)Follows Unidirectional data flow or data binding. <br>4)Uses reusable/composable UI components to develop the view."
+    "answer": "What is state in React?",
+    "question": "State of a component is an object that holds some information that may change over the lifetime of the component. We should always try to make our state as simple as possible and minimize the number of stateful components."
   },
   {
-    "question": "What is JSX?",
-    "answer": "JSX is a XML-like syntax extension to ECMAScript (the acronym stands for JavaScript XML).<br> Basically it just provides syntactic sugar for the React.createElement() function,<br> giving us expressiveness of JavaScript along with HTML like template syntax."
+    "answer": "What are props in React?",
+    "question": "Props are inputs to components. They are single values or objects containing a set of values that are passed to components on creation using a naming convention similar to HTML-tag attributes."
   },
   {
-    "question": "What is the difference between Element and Component?",
-    "answer": "An Element is a plain object describing what you want to appear on the screen in terms of the DOM nodes or other components. <br>
-    Elements can contain other Elements in their props. Creating a React element is cheap. <br> Once an element is created, it is never mutated."
-  },
-  {
-    "question": "When to use a Class Component over a Function Component?",
-    "answer": "If the component needs state or lifecycle methods then use class component otherwise use function component.<br> However, from React 16.8 with the addition of Hooks, you could use state , <br>lifecycle methods and other features that were only available in class component right in your function component."
-  },
-  {
-    "question": "What is state in React?",
-    "answer": "State of a component is an object that holds some information that may change over the lifetime of the component. <br>We should always try to make our state as simple as possible and minimize the number of stateful components."
+    "answer": "Why should we not update the state directly?",
+    "question": "If you try to update state directly then it won't re-render the component."
   }
 ]
