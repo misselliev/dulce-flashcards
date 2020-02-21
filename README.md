@@ -1,36 +1,59 @@
 ![beta development](https://img.shields.io/badge/beta-development-green?style=flat-square)
+![Hireable](https://cdn.rawgit.com/hiendv/hireable/master/styles/default/yes.svg)
 
-# Dulce's React flashcards (BETA)
+# 💻 Dulce's React flashcards (BETA)
 
 Web application to help you study React concepts. Built with Vue.js
 
-## Live Demo
+![alt text](docs/flashcards.png)
 
-[Click here](https://dulce-flashcards.herokuapp.com/)
+## ✨Live Demo
 
-## Getting Started
+You can look at it [here](https://dulce-flashcards.herokuapp.com/)
+
+
+## 🚀 Getting Started
 
 To get a local copy up and running follow these simple example steps.
 
-### Setup
 
-- Download the repository.
-- Checkout to **development** branch.
-- In your terminal, run `npm install` to load all the necessary dependencies.
-- Run `npm run serve` to launch the app.
+### Clone
 
-## Authors
+```sh
+git clone git@github.com:misselliev/dulce-flashcards.git
+cd dulce-flashcards
+```
+
+### Install
+
+```sh
+npm install 
+```
+
+### Usage
+
+```sh
+npm run serve
+```
+
+
+## Author
 
 👤 Elizabeth Villalejos
 
-- Github: [@misselliev](https://github.com/misselliev)
-- Linkedin: [Ellie Villalejos](https://linkedin.com/ellievillalejos)
+- [Github](https://github.com/misselliev)
+- [Linkedin](https://linkedin.com/ellievillalejos)
+- [Dev.to](https://dev.to/misselliev)
+- [Twitter](https://twitter.com/miss_elliev/)
+- [Instagram](https://www.instagram.com/miss_elliev/)
+
 
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
 
 Feel free to check the [issues page](issues/).
+
 
 ## Show your support
 
