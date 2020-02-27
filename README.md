@@ -7,7 +7,7 @@ Web application to help you study React concepts. Built with Vue.js
 
 ![alt text](docs/flashcards.png)
 
-## ✨Live Demo
+## ✨ Live Demo
 
 You can look at it [here](https://dulce-flashcards.herokuapp.com/)
 
@@ -36,6 +36,8 @@ npm install
 npm run serve
 ```
 
+## :pencil2: Todo
+- Tests to be added
 
 ## Author
 
