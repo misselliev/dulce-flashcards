@@ -1,18 +1,49 @@
-[
-  {
-    "answer": "What is React?",
-    "question": "React is an open-source frontend JavaScript library which is used for building user interfaces especially for single page applications. It is used for handling view layer for web and mobile apps."
+[{
+    "question": "What is React?",
+    "answer": "React is an open-source frontend JavaScript library which is used for building user interfaces especially for single page applications. It is used for handling view layer for web and mobile apps."
   },
   {
-    "answer": "What is state in React?",
-    "question": "State of a component is an object that holds some information that may change over the lifetime of the component. We should always try to make our state as simple as possible and minimize the number of stateful components."
+    "question": "What is state in React?",
+    "answer": "State of a component is an object that holds some information that may change over the lifetime of the component. We should always try to make our state as simple as possible and minimize the number of stateful components."
   },
   {
-    "answer": "What are props in React?",
-    "question": "Props are inputs to components. They are single values or objects containing a set of values that are passed to components on creation using a naming convention similar to HTML-tag attributes."
+    "question": "What are props in React?",
+    "answer": "Props are inputs to components. They are single values or objects containing a set of values that are passed to components on creation using a naming convention similar to HTML-tag attributes."
   },
   {
-    "answer": "Why should we not update the state directly?",
-    "question": "If you try to update state directly then it won't re-render the component."
+    "question": "Why should we not update the state directly?",
+    "answer": "If you try to update state directly then it won't re-render the component."
+  },
+  {
+    "question": "What is the difference between state and props?",
+    "answer": "State is a data structure that starts with a default value when a Component mounts. It may be mutated across time, mostly as a result of user events. Props (short for properties) are a Component's configuration."
+  },
+  {
+    "question": "What are React Hooks?",
+    "answer": "Hooks let you use more of React’s features without having to use classes. The first hook that you will most likely encounter is useState. useState is a Hook that lets you add React state to function components. It returns an array with a getter and a setter."
+  },
+  {
+    "question": "What is a High Order Component?",
+    "answer": "A higher-order component is a function that takes a component and returns a new component. HOC's allow you to reuse code, logic and bootstrap abstraction. The most common is probably Redux’s connect function."
+  },
+  {
+    "question": "What is JSX?",
+    "answer": "JSX is a syntax extension to JavaScript and comes with the full power of JavaScript. JSX produces React elements. You can embed any JavaScript expression in JSX by wrapping it in curly braces. After compilation, JSX expressions become regular JavaScript objects."
+  },
+  {
+    "question": "What is Redux?",
+    "answer": "The basic idea of redux is that the entire application state is kept in a single store. The store is simply a javascript object. The only way to change the state is by sending actions from your application and then writing reducers for these actions that modify the state."
+  },
+  {
+    "question": "What is an action?",
+    "answer": "Actions are plain javascript objects. They must have a type indicating the type of action being performed. In essence, actions are payloads of information that send data from your application to your store."
+  },
+  {
+    "question": "What is a reducer?",
+    "answer": "A reducer is simply a pure function that takes the previous state and an action, and returns the next state."
+  },
+  {
+    "question": "What is a pure function?",
+    "answer": "A pure function is a function that doesn't depend on and doesn't modify the states of variables out of its scope. Essentially, this means that a pure function will always return the same result given same parameters."
   }
 ]
